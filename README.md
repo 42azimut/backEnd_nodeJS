@@ -1,4 +1,6 @@
 # backEnd_nodeJS
+우리밋_woorimIT nodejs 백엔드 튜토리얼 
+https://www.youtube.com/watch?v=48lz8rw3PE8
 
 # 원격 저장소 깃허브에 실수로 올린 파일 또는 폴더 삭제 하기
 
