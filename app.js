@@ -1,22 +1,21 @@
+"use strict";
+
+//모듈
 const express = require('express');
 const app = express();
 
-//app 세팅
+const PORT = 3000;
+
+// 라우팅
+const home = require("./routes/home");
+
+// 앱 세팅
 app.set('views', './views');
-// ejs 엔젠으로 뷰를 해석
-//app.engine('html', require('ejs').renderFile);
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs'); // ejs 엔진으로 뷰를 해석
 
+app.use("/", home);  // use >>> 미들웨어middelware 등록해주는 메서드
 
-
-app.get('/', (req, res) => {
-  res.render('home/index');
+app.listen(PORT, () => {
+  console.log("서버가동중!!");
 });
 
-app.get('/login', (req, res) => {
-  res.render(`home/login`);
-});
-
-app.listen(3000, () => {
-  console.log("'서버가동중!!");
-});
