@@ -15,7 +15,4 @@ app.set('view engine', 'ejs'); // ejs 엔진으로 뷰를 해석
 
 app.use("/", home);  // use >>> 미들웨어middelware 등록해주는 메서드
 
-app.listen(PORT, () => {
-  console.log("서버가동중!!");
-});
-
+module.exports = app;
