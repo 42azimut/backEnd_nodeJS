@@ -2,13 +2,13 @@
 
 ## 우리밋_woorimIT nodejs 백엔드 튜토리얼 
 
-[로그인 & 회원가입 | 오리엔테이션](https://www.youtube.com/watch?v=2jwnbZKc66E&t=262s)
+[01. 로그인 & 회원가입 | 오리엔테이션](https://www.youtube.com/watch?v=2jwnbZKc66E&t=262s)
 
-[개발환경 세팅](https://www.youtube.com/watch?v=48lz8rw3PE8)
+[02. 개발환경 세팅](https://www.youtube.com/watch?v=48lz8rw3PE8)
 
-[express로 서버 띄워보기](https://www.youtube.com/watch?v=PkVV1OLaM5Q)
+[03. express로 서버 띄워보기](https://www.youtube.com/watch?v=PkVV1OLaM5Q)
 
-[http로 서버 띄워보기](https://www.youtube.com/watch?v=7gF09WFGK4I)
+[04. http로 서버 띄워보기](https://www.youtube.com/watch?v=7gF09WFGK4I)
 
 [로그인 화면 만들기 | 리얼 하드코딩으로](https://www.youtube.com/watch?v=AZtyyeCwNoc)
 
