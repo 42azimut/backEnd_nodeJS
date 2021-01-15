@@ -1,5 +1,11 @@
 # backEnd_nodeJS
 
+## package.json 만들기
+- `npm init -y`  (default로 -y는 모두 yes)
+- bin == binary
+- `npm start`  (package.json 위에서 만든 명령어를 한번에 대신 실행!)
+- `npm install` (dependencies에 명시된 라이브러리를 설치한다!)
+
 ## 우리밋_woorimIT nodejs 백엔드 튜토리얼 
 
 [01. 로그인 & 회원가입 | 오리엔테이션](https://www.youtube.com/watch?v=2jwnbZKc66E&t=262s)
