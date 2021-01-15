@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use strict"
 
 const home = (req, res) => {
