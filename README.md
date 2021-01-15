@@ -4,7 +4,8 @@
 - `npm init -y`  (default로 -y는 모두 yes)
 - bin == binary
 - `npm start`  (package.json 위에서 만든 명령어를 한번에 대신 실행!)
-- `npm install` (dependencies에 명시된 라이브러리를 설치한다!)
+- `npm install` (dependencies에 명시된 모듈를 설치한다! npm i == npm install)
+
 
 ## 우리밋_woorimIT nodejs 백엔드 튜토리얼 
 
