@@ -1,13 +1,14 @@
 # backEnd_nodeJS
-
-## package.json 만들기
+## Thanks very so much || **우리밋_woorimIT**
+___
+### package.json 만들기
 - `npm init -y`  (default로 -y는 모두 yes)
-- bin == binary
+- bin ==>>> binary
 - `npm start`  (package.json 위에서 만든 명령어를 한번에 대신 실행!)
 - `npm install` (dependencies에 명시된 모듈를 설치한다! npm i == npm install)
 
-
-## 우리밋_woorimIT nodejs 백엔드 튜토리얼 
+___
+### 우리밋_woorimIT nodejs 백엔드 튜토리얼 
 
 [01. 로그인 & 회원가입 | 오리엔테이션](https://www.youtube.com/watch?v=2jwnbZKc66E&t=262s)
 
@@ -26,4 +27,14 @@
 [08. MVC의 C(controller) 컨트롤러 분리하기](https://www.youtube.com/watch?v=KwCjYdYv0_s)
 
 [09. app.listen() 모듈화](https://www.youtube.com/watch?v=W5bZy0Uzn6I&t=13s)
+
+[10. package.json | package-lock.json | node_modules | npm start](https://www.youtube.com/watch?v=Jy9quSZbVTc)
+
+[11. about git](https://www.youtube.com/watch?v=FN9nOLqyNEc)
+
+[12. 폴더 구조 최적화](https://www.youtube.com/watch?v=BIjDK_xycaI)
+
+[13. nodemon으로 서버 띄우기 | 개발 생산성 높이기](https://www.youtube.com/watch?v=yJch-m_OCYI&t=11s)
+
+[14. DOM으로 HTML 객체 제어하기 | 프런트 기능 구현](https://www.youtube.com/watch?v=yJch-m_OCYI)
 
