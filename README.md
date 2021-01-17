@@ -40,3 +40,4 @@ ___
 
 [15. fetch | 프런트에서 서버로 데이터 보내기](https://www.youtube.com/watch?v=QRo3-00n_ew)
 
+[16. 로그인 API 만들기 in 서버 | 프런트의 요청데이터 파싱 | body-parser](https://www.youtube.com/watch?v=QLTcXMfcmLE&t=203s)
