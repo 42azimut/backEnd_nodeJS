@@ -20,5 +20,8 @@ function login() {
             "Content-Type": "application/json",
         },
         body: JSON.stringify(req),
-    });
+    })
+    .then((res) => res.json())
+    //.then((res) => console.log(res));
+    .then(console.log) //위 문장과 같다. 파라미터 같은경우 사용가능!
 }
