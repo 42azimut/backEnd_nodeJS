@@ -43,3 +43,7 @@ ___
 [16. 로그인 API 만들기 in 서버 | 프런트의 요청데이터 파싱 | body-parser](https://www.youtube.com/watch?v=QLTcXMfcmLE&t=203s)
 
 [17. 로그인 인증 기능 만들기 in 서버 | 유저 데이터 만들기](https://www.youtube.com/watch?v=lP1xx1A1vSU&t=8s)
+
+[18. 서버의 응답데이터 처리 in 프런트](https://www.youtube.com/watch?v=x_h2bye9SIE)
+
+[19. MVC의 모델(M) 만들기 | 객체지향프로그래밍(OOP) | UserStorage 클래스](https://www.youtube.com/watch?v=x_h2bye9SIE)
