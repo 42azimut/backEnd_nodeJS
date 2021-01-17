@@ -22,6 +22,16 @@ function login() {
         body: JSON.stringify(req),
     })
     .then((res) => res.json())
+    .then((res) => {
+        if (res.success) {
+            location.href = '/';
+        } else {
+            alert(res.msg);
+        }
+    })
+    .catch((err) => {
+        console.error("로그인 중 에러 발생");
+    });
     //.then((res) => console.log(res));
-    .then(console.log) //위 문장과 같다. 파라미터 같은경우 사용가능!
+    //.then(console.log) //위 문장과 같다. 파라미터 같은경우 사용가능!
 }
