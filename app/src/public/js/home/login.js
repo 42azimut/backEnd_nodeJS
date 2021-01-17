@@ -14,5 +14,11 @@ function login() {
         id: id.value,
         psword: psword.value,
     };
-    /* fetch(); 다음 시간에 */
+    fetch("/login", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(req)
+    })
 }
