@@ -47,3 +47,5 @@ ___
 [18. 서버의 응답데이터 처리 in 프런트](https://www.youtube.com/watch?v=x_h2bye9SIE)
 
 [19. MVC의 모델(M) 만들기 | 객체지향프로그래밍(OOP) | UserStorage 클래스](https://www.youtube.com/watch?v=x_h2bye9SIE)
+
+[20. User 모델 만들기 | 객체지향 프로그래밍 | 인스턴스화](https://www.youtube.com/watch?v=69JiX9rGNmI)s
