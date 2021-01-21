@@ -1,20 +1,22 @@
 "use strict";
 
 const id = document.querySelector("#id");
+const name = document.querySelector("#name");
 const psword = document.querySelector("#psword");
-const loginBtn = document.querySelector("#button");
+const confirmPsword = document.querySelector("#confirm-psword");
+const registerBtn = document.querySelector("#button");
 
-console.log(id);
-console.log("hi there jayden");
+registerBtn.addEventListener("click", register);
 
-loginBtn.addEventListener("click", login);
-
-function login() {
+function register() {
     const req = {
         id: id.value,
+        name: name.value,
         psword: psword.value,
+        confirmPsword: confirmPsword.value
     };
-    fetch("/login", {
+
+    fetch("/register", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -24,7 +26,7 @@ function login() {
     .then((res) => res.json())
     .then((res) => {
         if (res.success) {
-            location.href = '/';
+            location.href = '/login';
         } else {
             alert(res.msg);
         }
@@ -32,6 +34,6 @@ function login() {
     .catch((err) => {
         console.error("로그인 중 에러 발생");
     });
-    //.then((res) => console.log(res));
-    //.then(console.log) //위 문장과 같다. 파라미터 같은경우 사용가능!
+//     .then((res) => console.log(res));
+//     .then(console.log) //위 문장과 같다. 파라미터 같은경우 사용가능!
 }
