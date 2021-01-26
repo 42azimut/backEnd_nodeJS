@@ -7,6 +7,14 @@ ___
 - `npm start`  (package.json 위에서 만든 명령어를 한번에 대신 실행!)
 - `npm install` (dependencies에 명시된 모듈를 설치한다! npm i == npm install)
 
+- `git tag v0.1.0-notDB`
+- `git tag`
+- `git log --oneline`
+- `git push ori
+[git tag 삭제]
+- `git tag -d v0.1.0-notDB`  [local tag delete]
+- `git push origin :v0.1.0-notDB`  [remote tag delete]
+
 ___
 ### 우리밋_woorimIT nodejs 백엔드 튜토리얼 
 
@@ -56,4 +64,10 @@ ___
 
 [23. 회원가입 요청 구현 in 프런트 | fetch | ajax](https://www.youtube.com/watch?v=YBRpfDsWm9k&t=307s)
 
-[24. 백엔드 맛보기 | 회원가입 라우팅&기능구현 in 서버 | 깃 버전 관리 | tag](https://www.youtube.com/watch?v=mizgP540Zvc&t=10s)
+[24. 회원가입 라우팅&기능구현 in 서버 | 깃 버전 관리 | tag](https://www.youtube.com/watch?v=mizgP540Zvc&t=10s)
+
+[25. 데이터 파일로 관리하기 | fs(파일시스템) | json](https://www.youtube.com/watch?v=K0vJFEOTMeA&t=318s)
+
+[26. ]()
+
+[27. ]()
