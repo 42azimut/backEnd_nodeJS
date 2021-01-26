@@ -82,6 +82,9 @@ ___
 
 [25. 데이터 파일로 관리하기 | fs(파일시스템) | json](https://www.youtube.com/watch?v=K0vJFEOTMeA&t=318s)
 
-[26. 파일 DB로 로그인 구현 | promise와 async await 으로 비동기 최적화 ](https://www.youtube.com/watch?v=dchFLwlpI-c)
+[26. 파일 DB로 로그인 구현 | promise와 async await 으로 비동기 최적화](https://www.youtube.com/watch?v=dchFLwlpI-c)
 
-[27. ]()
+[27. 파일 DB로 회원가입 구현 | promise와 async await 으로 비동기 최적화](https://www.youtube.com/watch?v=myi7ZrKkf2o&t=119s)
+
+[28. ]()
+[29. ]()
