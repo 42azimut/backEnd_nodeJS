@@ -15,6 +15,20 @@ ___
 - `git tag -d v0.1.0-notDB`  [local tag delete]
 - `git push origin :v0.1.0-notDB`  [remote tag delete]
 
+### Promises  & await
+ex.) `const fs = require("fs").promises;`
+- 수행동작이 끝남과 동시에 상태를 알려주기 때문에 **비동기 처리**에 아주 효과적! 
+- procises 는 데이터를 읽는데 다소 시간이 걸림!  (비동기 방식의 장점)
+- promises 를 반환해준 것만 await 사용 가능하다!  
+- await 사용이유는 가독성 때문이다.  
+- await 는 사용이 제한적이다. async 함수 내에서만 사용 가능하다! 
+
+```
+    fs.readFile("./src/databases/users.json")
+      .then()   //해당 로직이(위) 성공했을때 실행
+      .catch(); // 실패했을떄 실행
+```
+
 ___
 ### 우리밋_woorimIT nodejs 백엔드 튜토리얼 
 
@@ -68,6 +82,6 @@ ___
 
 [25. 데이터 파일로 관리하기 | fs(파일시스템) | json](https://www.youtube.com/watch?v=K0vJFEOTMeA&t=318s)
 
-[26. ]()
+[26. 파일 DB로 로그인 구현 | promise와 async await 으로 비동기 최적화 ](https://www.youtube.com/watch?v=dchFLwlpI-c)
 
 [27. ]()
