@@ -6,7 +6,8 @@ ___
 - bin ==>>> binary
 - `npm start`  (package.json 위에서 만든 명령어를 한번에 대신 실행!)
 - `npm install` (dependencies에 명시된 모듈를 설치한다! npm i == npm install)
-
+___
+### git
 - `git tag v0.1.0-notDB`
 - `git tag`
 - `git log --oneline`
@@ -14,7 +15,7 @@ ___
 [git tag 삭제]
 - `git tag -d v0.1.0-notDB`  [local tag delete]
 - `git push origin :v0.1.0-notDB`  [remote tag delete]
-
+___
 ### Promises  & await
 ex.) `const fs = require("fs").promises;`
 - 수행동작이 끝남과 동시에 상태를 알려주기 때문에 **비동기 처리**에 아주 효과적! 
@@ -28,6 +29,25 @@ ex.) `const fs = require("fs").promises;`
       .then()   //해당 로직이(위) 성공했을때 실행
       .catch(); // 실패했을떄 실행
 ```
+___
+### Postman | curl : API 서버 테스트 도구
+#### curl TEST
+- `curl http://localhost:3000/login`
+- html 출력
+
+- `curl http://localhost:3000/login -X POST -d '{"id":"jay", "psword":"123"}' -H "Content-Type: application/json"`
+- $ success:true
+
+- `curl http://localhost:3000/register -d '{"id":"kkarot", "psword":"1234"}' -H "Content-Type: application/json"`
+- $ success:true
+
+#### postman TEST
+[postman web](https://www.postman.com/)
+- 회원가입후 앱설치
+- 주소입력(http://locatlhost:300/login)
+- raw data인 JSON 데이타 형식으로 {id, pw{ 를 입력하고 send! / 존재하는 아이디와, 미존재 아이디 테스트
+
+
 
 ___
 ### 우리밋_woorimIT nodejs 백엔드 튜토리얼 
