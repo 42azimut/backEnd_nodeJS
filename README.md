@@ -19,7 +19,7 @@ ___
 ### Promises  & await
 ex.) `const fs = require("fs").promises;`
 - 수행동작이 끝남과 동시에 상태를 알려주기 때문에 **비동기 처리**에 아주 효과적! 
-- procises 는 데이터를 읽는데 다소 시간이 걸림!  (비동기 방식의 장점)
+- promises 는 데이터를 읽는데 다소 시간이 걸림!  (비동기 방식의 장점)
 - promises 를 반환해준 것만 await 사용 가능하다!  
 - await 사용이유는 가독성 때문이다.  
 - await 는 사용이 제한적이다. async 함수 내에서만 사용 가능하다! 
