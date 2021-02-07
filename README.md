@@ -47,6 +47,8 @@ ___
 - 주소입력(http://locatlhost:300/login)
 - raw data인 JSON 데이타 형식으로 {id, pw{ 를 입력하고 send! / 존재하는 아이디와, 미존재 아이디 테스트
 
+### 환경변수 관리(보안 향상) | dotenv
+- 환경변수안에 변수를 호출하여 온라인 상에서 확인할 수 없다!
 
 
 ___
@@ -109,3 +111,7 @@ ___
 [28. 서버 API 테스트 도구 | Postman | curl](https://www.youtube.com/watch?v=0veQoK9V07k)
 
 [29. ]()
+
+[... 중간 aws 생략!]
+
+[30. 백엔드 맛보기 | 환경 변수 관리 | 보안 향상 | dotenv(https://www.youtube.com/watch?v=OEZedYK5biA)
