@@ -50,6 +50,17 @@ ___
 ___
 ### 환경변수 관리(보안 향상) | dotenv
 - 환경변수안에 변수를 호출하여 온라인 상에서 확인할 수 없다!
+- `npm i -s dotenv`
+- 파일명(만들기) .env로 동일하게 하자!(관행)
+- src/.env
+```
+## 환경변수 설정하기
+.emv
+PORT=3000
+
+www.js
+const PORT = process.env.PORT || 3000;
+```
 
 
 ___
