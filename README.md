@@ -40,13 +40,14 @@ ___
 
 - `curl http://localhost:3000/register -d '{"id":"kkarot", "psword":"1234"}' -H "Content-Type: application/json"`
 - $ success:true
+___
 
 #### postman TEST
 [postman web](https://www.postman.com/)
 - 회원가입후 앱설치
 - 주소입력(http://locatlhost:300/login)
 - raw data인 JSON 데이타 형식으로 {id, pw{ 를 입력하고 send! / 존재하는 아이디와, 미존재 아이디 테스트
-
+___
 ### 환경변수 관리(보안 향상) | dotenv
 - 환경변수안에 변수를 호출하여 온라인 상에서 확인할 수 없다!
 
