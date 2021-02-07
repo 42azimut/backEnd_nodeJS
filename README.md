@@ -115,4 +115,4 @@ ___
 
 [... 중간 aws 생략!]
 
-[30. 백엔드 맛보기 | 환경 변수 관리 | 보안 향상 | dotenv(https://www.youtube.com/watch?v=OEZedYK5biA)
+[30. 백엔드 맛보기 | 환경 변수 관리 | 보안 향상 | dotenv](https://www.youtube.com/watch?v=OEZedYK5biA)
