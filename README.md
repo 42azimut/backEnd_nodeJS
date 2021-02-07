@@ -50,18 +50,19 @@ ___
 ___
 ### 환경변수 관리(보안 향상) | dotenv
 - 환경변수안에 변수를 호출하여 온라인 상에서 확인할 수 없다!
-- `npm i -s dotenv`
-- 파일명(만들기) .env로 동일하게 하자!(관행)
-- src/.env
+- 설치 `npm i -s dotenv`
+- 파일명(만들기) .env로 동일하게 하자!(관행) `src/.env`
 ```
 ## 환경변수 설정하기
-.emv
+// .env
 PORT=3000
 
-www.js
+// www.js
 const PORT = process.env.PORT || 3000;
-```
 
+// DB
+```
+- 반드시 .env 파일은 .ignore 파일에 등록시키자! 다만, 노드 템플릿이기 떄문에 자동 등록 되어 있다! 그래서 .env 파일명을 관행되로 쓰자! 단, 바꿀수는 있다.
 
 ___
 ### 우리밋_woorimIT nodejs 백엔드 튜토리얼 
