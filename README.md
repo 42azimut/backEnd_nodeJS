@@ -48,6 +48,10 @@ ___
 - 주소입력(http://locatlhost:300/login)
 - raw data인 JSON 데이타 형식으로 {id, pw{ 를 입력하고 send! / 존재하는 아이디와, 미존재 아이디 테스트
 ___
+### AWS rds 생성 관련... 유튭 확인! 로컬에서 디비 사용방법 익혀보자.
+- AWS RDS로 DB 구축하기 | 로그인 구현 | MySQL 
+- >>> 코드 작성중 aws 아직 생성 안함! 
+___
 ### 환경변수 관리(보안 향상) | dotenv
 - 환경변수안에 변수를 호출하여 온라인 상에서 확인할 수 없다!
 - 설치 `npm i -s dotenv`
@@ -123,8 +127,14 @@ ___
 
 [28. 서버 API 테스트 도구 | Postman | curl](https://www.youtube.com/watch?v=0veQoK9V07k)
 
-[29. ]()
+[29. ** AWS RDS 대여 | 과금 안되도록 주의하기 | 클라우드 | MySQL](https://www.youtube.com/watch?v=PV4RNoSXQIo)
 
-[... 중간 aws 생략!]
+[30. ** AWS RDS 한글 설정 | 파라미터 옵션 | 클라우드 | MySQL](https://www.youtube.com/watch?v=kQUmZue6-rA)
+
+[31. ** MySQL workbench | AWS RDS와 연동](https://www.youtube.com/watch?v=C7LK20tlQ6Y)
+
+[32. ** 백엔드 맛보기 | AWS RDS로 DB 구축하기 | 로그인 구현 | MySQL](https://www.youtube.com/watch?v=Q4JpUm-cyQw&t=161s)
+
+[]()
 
 [30. 백엔드 맛보기 | 환경 변수 관리 | 보안 향상 | dotenv](https://www.youtube.com/watch?v=OEZedYK5biA)
